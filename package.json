@@ -1,0 +1,15 @@
+{
+  "name": "testingproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan __test__/**/*.spec.js"
+  },
+  "author": "adam ziegele",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
+}
